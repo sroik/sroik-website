@@ -6,7 +6,7 @@
   padding: 0;
   position: absolute;
   height: 100px;
-  gap: 50px;
+  gap: 60px;
   left: 20px;
   right: 20px;
   bottom: 0;
@@ -14,6 +14,6 @@
 
 @media screen and (max-width: 500px) {
   .footer { 
-    gap: 30px;
+    gap: 40px;
   }
 }
