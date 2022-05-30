@@ -1,0 +1,29 @@
+.soclink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+}
+
+.socname { 
+  color: white;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+a.soclink {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) { 
+  .soclink { 
+    gap: 0;
+  }
+  
+  .socname {
+    width: 0px;
+    visibility: hidden;  
+  }
+}

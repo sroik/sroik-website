@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  position: absolute;
+  height: 100px;
+  gap: 50px;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .footer { 
+    gap: 30px;
+  }
+}
